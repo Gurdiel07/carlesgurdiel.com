@@ -2,8 +2,8 @@
 import '../styles/global.css';
 interface Props { title?: string; description?: string; }
 const {
-  title = 'Carles Gurdiel — Full-Stack & AI Developer',
-  description = '19-year-old full-stack developer in Zürich building AI-powered software and algorithmic trading systems. Python, TypeScript, React, MetaTrader 5.',
+  title = 'Carles Gurdiel — Full-Stack Developer · AI & Algorithmic Trading',
+  description = '19-year-old full-stack developer in Zürich. I build AI-powered software and algorithmic trading systems, working AI-native with multi-agent tools. Python, TypeScript, React, MetaTrader 5.',
 } = Astro.props;
 const site = 'https://carlesgurdiel.com';
 const ogImage = `${site}/og-image.png`;
@@ -11,7 +11,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Carles Gurdiel',
-  jobTitle: 'Full-Stack & AI Developer',
+  jobTitle: 'Full-Stack Developer — AI-powered software & algorithmic trading systems',
   address: { '@type': 'PostalAddress', addressLocality: 'Zürich', addressCountry: 'CH' },
   email: 'mailto:carlesgurdiel.dev@gmail.com',
   url: site,
